@@ -13,7 +13,11 @@
     <button class="button" onclick="playGame('Ножиці')">Ножиці</button>
     <button class="button" onclick="playGame('Папір')">Папір</button>
     <div id="result"></div>
-
+    <div class="scoreboard">
+        <p>Ваш рахунок: <span id="userScore">0</span></p>
+        <p>Рахунок комп'ютера: <span id="computerScore">0</span></p>
+    </div>
+    <button class="reset-btn" onclick="resetGame()">Скинути гру</button>
     <script src="./js/script.js"></script>
 </body>
 </html>
